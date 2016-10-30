@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace Repository
 {
     public interface ITodoRepository
@@ -64,9 +65,9 @@ namespace Repository
     public class TodoRepository : ITodoRepository
     {
 
-        private readonly IGenericList<TodoItem> _inMemoryTodoDatabase;
+        private readonly List<TodoItem> _inMemoryTodoDatabase;
 
-        public TodoRepository(IGenericList<TodoItem> initialDbState = null)
+        public TodoRepository(List<TodoItem> initialDbState = null)
         {
             if (initialDbState != null)
             {
@@ -74,7 +75,7 @@ namespace Repository
             }
             else
             {
-                _inMemoryTodoDatabase = new GenericList<TodoItem>();
+                _inMemoryTodoDatabase = new List<TodoItem>();
             }
 
         }

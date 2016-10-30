@@ -43,12 +43,6 @@
     <Compile Include="TodoItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\RAUPJC-DZ1\IGenericList\IGenericList.csproj">
-      <Project>{e0b7b959-4ebb-4f76-864a-f80a42476fe6}</Project>
-      <Name>IGenericList</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

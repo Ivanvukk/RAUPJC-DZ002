@@ -55,10 +55,6 @@
     <Compile Include="TodoRepositoryTests.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\RAUPJC-DZ1\IGenericList\IGenericList.csproj">
-      <Project>{e0b7b959-4ebb-4f76-864a-f80a42476fe6}</Project>
-      <Name>IGenericList</Name>
-    </ProjectReference>
     <ProjectReference Include="..\TodoItem\TodoItem.csproj">
       <Project>{f3bf8ed7-fbb6-4e9c-8569-95b678cf7216}</Project>
       <Name>TodoItem</Name>
